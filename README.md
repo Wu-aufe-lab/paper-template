@@ -18,7 +18,7 @@ archived release (see *Data availability* below), not the `main` branch.
 | `src/` | analysis code, one entry point per stage |
 | `data/` | small demo data + a manifest describing the full data set |
 | `scripts/` | helpers: data download, figure export |
-| `docs/` | published figures, notes |
+| `docs/` | published figures, notes, and [`publishing.md`](docs/publishing.md) — the release/DOI runbook |
 | `outputs/` | produced at run time, not committed |
 
 ## Quick start
