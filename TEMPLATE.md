@@ -50,3 +50,16 @@
 - [ ] README 里每条命令都实际执行过
 - [ ] 没有把 `_external/`、`data/raw/`、`outputs/` 提交进去
 - [ ] LICENSE 覆盖代码；第三方数据在 `MANIFEST.json` 里单独标了 license
+
+## 7. 组规（Wu-aufe-lab）
+
+> 组织设置能锁的已经锁了：**成员不能删除仓库、不能改仓库可见性**（只有 owner 能）。
+> 但 GitHub **Free / Team 套餐不支持**「禁止成员创建公开仓库」——那条要 Enterprise Cloud。
+> 所以这一条靠组规补，不是靠按钮。
+
+1. **新建仓库一律选 Private。** 要公开（论文发表、数据可用性）先和 owner 确认，由 owner 改。
+2. **仓库名 `paper-<短标题>`**，建库时用 `paper-template` 的 **Use this template**，不要空库起。
+3. **组员的改动一律走 PR**，不直接推 `main`；owner 在 PR 里 merge。
+4. **对外发布（DOI）由 owner 做**：打 tag → Zenodo 归档 → 回填 README badge 与论文 Data availability。
+5. 大文件（>50 MB）不进 git，按 `data/README.md` 的三层规则走。
+
