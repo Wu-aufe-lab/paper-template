@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and the archived release."
+title: "<Paper short title>: code and data"
+abstract: "Code and data accompanying the paper <full title>."
+version: "1.0.0"
+date-released: "2026-01-01"
+license: Apache-2.0
+repository-code: "https://github.com/<owner>/<repo>"
+url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+type: software
+authors:
+  - family-names: "<Surname>"
+    given-names: "<Given>"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "<Surname2>"
+    given-names: "<Given2>"
+preferred-citation:
+  type: article
+  title: "<full paper title>"
+  year: 2026
+  journal: "<Journal>"
+  doi: "10.xxxx/xxxxx"
+  authors:
+    - family-names: "<Surname>"
+      given-names: "<Given>"
+      orcid: "https://orcid.org/0000-0000-0000-0000"
+    - family-names: "<Surname2>"
+      given-names: "<Given2>"

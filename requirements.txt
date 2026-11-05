@@ -1,0 +1,11 @@
+# Pinned to what the paper used. Regenerate with `pip freeze` inside the venv
+# after a successful reproduction run.
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+openpyxl==3.1.5
+
+# Add the paper-specific stack here, e.g.
+# tensorflow==2.15.1
+# torch==2.6.0

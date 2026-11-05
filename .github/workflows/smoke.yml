@@ -1,0 +1,24 @@
+name: smoke
+
+# The cheapest possible guarantee that the repository still runs:
+# clone -> pip install -> run the demo. If this badge is red, the paper's
+# "code available" claim is false, and a reviewer will notice.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install
+        run: pip install -r requirements.txt
+      - name: run demo
+        run: python src/train.py --seed 0 --out /tmp/run
+      - name: run figures
+        run: python scripts/make_figures.py --run /tmp/run --out /tmp/figs

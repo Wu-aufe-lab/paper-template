@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.XXXXXXX",
+  "generated": "2026-01-01",
+  "files": [
+    {
+      "name": "REPLACE_ME.pkl",
+      "url": "https://zenodo.org/records/XXXXXXX/files/REPLACE_ME.pkl",
+      "sha256": "",
+      "size_bytes": 0,
+      "description": "one row per <unit>; columns: <list them>",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

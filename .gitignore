@@ -1,0 +1,37 @@
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ---- run products ----
+outputs/
+logs/
+*.log
+
+# ---- large / binary artefacts ----
+data/raw/
+*.hdf5
+*.h5
+*.pkl
+*.npy
+*.npz
+*.zip
+*.tar.gz
+!data/demo/*.pkl
+
+# ---- external checkouts (ghget) ----
+_external/
+
+# ---- editors / os ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- secrets ----
+token.txt
+.env

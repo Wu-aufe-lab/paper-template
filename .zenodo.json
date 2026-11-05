@@ -1,0 +1,22 @@
+{
+  "title": "<Paper short title>: code and data",
+  "upload_type": "software",
+  "description": "Code and data accompanying <full paper title> (<Journal>, <year>). Contains the analysis pipeline, demo data and a manifest for the full data set.",
+  "creators": [
+    {
+      "name": "<Surname>, <Given>",
+      "orcid": "0000-0000-0000-0000",
+      "affiliation": "<Institution>"
+    }
+  ],
+  "license": "apache-2.0",
+  "access_right": "open",
+  "keywords": ["<keyword1>", "<keyword2>"],
+  "related_identifiers": [
+    {
+      "identifier": "10.xxxx/xxxxx",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
